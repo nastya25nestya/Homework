@@ -6,6 +6,10 @@ max_elem = elem
 return max_elem
 
 
-list1 = [3,5,9,12,8]
-result = large(list1)
+a=[]
+n=int(input()) # ввод количества элементов массива
+print('Введите элементы массива: ')
+for i in range(n):
+a.append(int(input())) # ввод элементов массива
+result = large(a)
 print('Максимальный элемент: ', result)
