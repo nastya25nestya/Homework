@@ -22,6 +22,4 @@ for _ in range(10000000):
             rezults.append(1)
         elif roll in looses:
             rezults.append(0)
-        else:
-            print('smth went wrong')
 print(sum(rezults)/ len(rezults))
